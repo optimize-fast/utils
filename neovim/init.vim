@@ -18,4 +18,4 @@ map <F2> <Esc>:noh<Return>
 imap <F2> <Esc>:noh<Return>a
 
 " C Programming commands and keymaps
-command -nargs=1 CInclGuard normal A#ifndef <args><NL>#define <args><NL><NL><NL><NL><NL><NL>#endif<Esc>3k
+command -nargs=1 CInclGuard normal A#ifndef <args><NL>#define <args><NL><NL><NL><NL>#endif<Esc>2k
